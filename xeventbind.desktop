@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/fortinet/scripts/xeventbind resolution /home/fortinet/scripts/touch-conky-conf.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Update Conky Position
+Name=Update Conky Position
+Comment[en_US]=
+Comment=

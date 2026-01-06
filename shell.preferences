@@ -1,0 +1,6 @@
+[/]
+favorite-apps=['firefox_firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop']
+welcome-dialog-last-shown-version='42.2'
+
+[extensions/ding]
+show-home=false
