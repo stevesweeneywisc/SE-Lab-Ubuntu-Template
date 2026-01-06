@@ -9,8 +9,10 @@ echo #####Ubuntu Base Install##########
 echo ##########   start     ############
 echo ###### Application Install ########
 sudo apt update -y
+sudo apt dist-upgrade –y
 sudo apt upgrade -y
 sudo apt autoremove -y
+sudo apt install -y openssh-server
 sudo apt install -y net-tools open-vm-tools-desktop conky-all dconf-editor
 sudo apt-get install -y wget
 sudo apt-get install -y curl
