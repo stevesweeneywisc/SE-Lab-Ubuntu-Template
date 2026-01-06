@@ -122,10 +122,11 @@ echo #####Ubuntu-X_Install Script######
 
 echo ##########    end     ############
 echo #####Ubuntu Base Install##########
-rm shell.preferences
-rm Ubuntu_Base_Install.tar
-rm Ubuntu_Base_Install.sh
-rm -r Wallpaper
+sudo rm shell.preferences
+sudo rm Ubuntu_Base_Install.sh
+sudo rm -r Wallpaper
+sudo rm README.md
+sudo rm -r .git
 
 echo ##########   Reboot   ############
 sudo reboot now
