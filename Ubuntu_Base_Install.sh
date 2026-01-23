@@ -36,6 +36,7 @@ echo ##########   start    ############
 echo ##########conky config############
 echo # Prep and Move "conky.conf" to /etc/conky
 chmod 644 conky.conf
+cp conky.conf /home/fortinet/.conky.conf
 sudo chown root conky.conf
 sudo chown :root conky.conf
 sudo mv conky.conf /etc/conky/
