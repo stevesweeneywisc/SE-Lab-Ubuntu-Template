@@ -92,12 +92,7 @@ echo ##### terminal GNOME dark ########
 dconf write /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/use-theme-colors false
 dconf write /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/foreground-color "'rgb(208,207,204)'"
 dconf write /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/background-color "'rgb(23,20,33)'"
-echo #### Setup RDP ####
-systemctl --user start gnome-remote-desktop
-systemctl --user enable gnome-remote-desktop
-grdctl rdp enable
-grdctl rdp set-credentials fortinet "password"
-grdctl rdp disable-view-only
+
 #echo ###########  end  ################
 #echo ####gnome desktop settings #######
 
