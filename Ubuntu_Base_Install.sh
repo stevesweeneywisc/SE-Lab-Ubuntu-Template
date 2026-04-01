@@ -123,6 +123,7 @@ sudo rm Ubuntu_Base_Install.sh
 sudo rm -r Wallpaper
 sudo rm README.md
 sudo rm -r .git
+sudo rm -r .gitignore
 
 echo ##########   Reboot   ############
 sudo reboot now
